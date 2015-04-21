@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Farmers Portal</title>
+<link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<script src="web/js/jquery.min.js"></script>
+<script src="web/js/bootstrap.min.js"></script>
+<meta http-equiv="Content-Language" content="hi">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<script src="web/js/wow.min.js"></script>
+<script src="web/js/state.js"></script>
+    <script src="web/js/district.js"></script>
+<link href="web/css/animate.css" rel='stylesheet' type='text/css' />
+<script>
+	new WOW().init();
+</script>
+<script type="text/javascript" src="web/js/move-top.js"></script>
+<script type="text/javascript" src="web/js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+</head>
+<body>
+
+	<div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.html"><img src="web/images/logo.png" class="img-responsive" alt="" /></a>
+				</div>
+				<div style="float:right;margin-top:-10px">
+					<p><b><a href="index.html" >English  </a></b><span><a href="index.html">हिन्दी </a></span></p>
+				</div>
+				<div class="queries">
+					<p>मिस काँल सेवा<span>0141-4027164 </span><label>(24*7)</label></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+			<div class="menu-bar">
+			<div class="container">
+				<div class="top-menu">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>|
+						<li><a href="crops.html">Crops</a></li>|
+						<li><a href="market_price.html">Market Price</a></li>|
+						<li><a href="contact.html">Government Program</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="login-section">
+					<ul>
+		
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="order-section-page">
+		<div class="ordering-form">
+			<div class="container">
+			<div class="order-form-head text-center wow bounceInLeft" data-wow-delay="0.4s">
+						<h3>Crop Order Form</h3>
+						<p>Ordering Crop is So Simple Now !!!!!!</p>
+					</div>
+				<div class="col-md-6 order-form-grids">
+					
+					<div class="order-form-grid  wow fadeInLeft" data-wow-delay="0.4s">
+						<h5 onfocus="this.value = '';">Order Information</h5>
+								<span>Type of Order</span>
+								 <div class="dropdown-button">           			
+            			<select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}' style="border:1px solid #32CD32">
+            			<option value="0" style="border:1px solid #32CD32">Order Type</option>	
+						<option value="1">Delivery</option>
+						<option value="2">Pick Up</option>
+					  </select>
+					</div>
+										<div class="order-form-grid  wow fadeInLeft" data-wow-delay="0.4s">
+											<br>
+								<span>Select Crop</span>
+											<br>
+								 <div class="dropdown-button">           			
+            			<select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}' style="border:1px solid #32CD32">
+            			<option value="0" style="border:1px solid #32CD32">Rice </option>	
+						<option value="1">Wheat</option>
+						<option value="2">Maize</option>
+						<option value="4">Pulses</option>
+						<option value="5">Jute</option>
+						<option value="6">Oil Seeds</option>
+						<option value="7">Cotton</option>
+						<option value="8">SugarCane</option>
+							
+							
+					  </select>
+					</div></div>
+<br>
+		              <span>Name</span>
+					   <div class="dropdown-button wow">           			
+            		<input type="text" class="text" value="Enter Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Time';}"><br>
+					</div>
+					<span>Address</span>
+								 <div class="dropdown-button">           			
+            		<input type="text" class="text" value="Enter Your Full Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Time';}"><br>
+					</div>
+					<span>State</span>
+					   <div class="dropdown-button">           			
+            		<input type="text" class="text" value="State" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Time';}"><br>
+					</div>
+						<span>Mobile Number</span>
+						<div class="dropdown-button">    
+					<input type="text" class="text" value="Enter Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Time';}"><br></div>
+					<div class="wow swing animated" data-wow-delay= "0.4s">
+					<input type="button" value="order now">
+					</div>
+					</div>
+				</div>
+				<div class="col-md-6 ordering-image wow bounceIn" data-wow-delay="0.4s">
+					<img src="web/images/oreder.png" class="img-responsive" alt="" />
+				</div>
+			</div>
+		</div>
+<div class="special-offers-section">
+			<div class="container">
+				<div class="special-offers-section-head text-center dotted-line">
+					<h4>Special Offers</h4>
+				</div>
+				<div class="special-offers-section-grids">
+				 <div class="m_3"><span class="middle-dotted-line"> </span> </div>
+				   <div class="container">
+					  <ul id="flexiselDemo3">
+						<li>
+							<div class="offer">
+								<div class="offer-image">	
+									<img src="web/images/o1.png" class="img-responsive" alt=""/>
+								</div>
+								<div class="offer-text">
+									<h4>Rice चावल  </h4>
+									<p>Get 20% Off on 2204 Kg</p>
+									<input type="button" value="Grab It">
+									<span></span>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li>
+							<div class="offer">
+								<div class="offer-image">	
+									<img src="web/images/o2.png" class="img-responsive" alt=""/>
+								</div>
+								<div class="offer-text">
+									<h4>Wheat गेहू</h4>
+									<p>Get 10% off on Every Order</p>
+									<input type="button" value="Grab It">
+									<span></span>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li>
+							<div class="offer">
+								<div class="offer-image">	
+									<img src="web/images/o3.png" class="img-responsive" alt=""/>
+								</div>
+								<div class="offer-text">
+									<h4>Maize मक्का</h4>
+									<p>Free Delivery </p>
+									<input type="button" value="Grab It">
+									<span></span>
+								</div>
+								
+								<div class="clearfix"></div>
+								</div>
+						</li>
+						<li>
+							<div class="offer">
+								<div class="offer-image">	
+									<img src="web/images/o4.png" class="img-responsive" alt=""/>
+								</div>
+								<div class="offer-text">
+									<h4>Oil Seeds &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  तेल बीज</h4>
+									<p>On Every Order get 20% cashback </p>
+									<input type="button" value="Grab It">
+									<span></span>
+								</div>
+								
+								<div class="clearfix"></div>
+								</div>
+					    </li>
+					 </ul>
+                       
+				 <script type="text/javascript">
+					$(window).load(function() {
+						
+						$("#flexiselDemo3").flexisel({
+							visibleItems: 3,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: { 
+								portrait: { 
+									changePoint:480,
+									visibleItems: 1
+								}, 
+								landscape: { 
+									changePoint:640,
+									visibleItems: 2
+								},
+								tablet: { 
+									changePoint:768,
+									visibleItems: 3
+								}
+							}
+						});
+						
+					});
+				    </script>
+				    <script type="text/javascript" src="web/js/jquery.flexisel.js"></script>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+		
+
+	  <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
